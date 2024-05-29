@@ -12,7 +12,7 @@ if(isset($_POST['user']) && !empty($_POST['user']) && isset ($_POST['pass']) && 
             $dado = $sql->fetch();
             $_SESSION['id'] = $dado['id'];
             $_SESSION['user'] = $dado['user'];
-            header("Location: home.php");
+            header("Location: ../views/home.php");
             exit();
         } else {
             echo

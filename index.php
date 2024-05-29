@@ -1,6 +1,6 @@
 <?php
     // Conexão com o BD
-    require 'config.php';
+    require 'controllers/config.php';
 ?>
 
 <!DOCTYPE html>
@@ -13,7 +13,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous" />
 
     <!-- External CSS -->
-    <link rel="stylesheet" type="text/css" href="/cantina/assets/css/login.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/login.css" />
 
     <!-- Font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -29,7 +29,7 @@
 
     <div class="hero-img-login">
         <div class="forms-login">
-            <form action="login.php" method="post">
+            <form action="controllers/login.php" method="post">
                 <div class="mb-3">
                     <label for="username" class="form-label">Nome de Usuário:</label>
                     <input type="text" class="form-control" placeholder="User" name="user" required>
