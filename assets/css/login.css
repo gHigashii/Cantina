@@ -1,0 +1,6 @@
+.hero-img-login{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: url("/cantina/assets/img/overlay.png"), url("/cantina/assets/img/index-img.jpg") no-repeat center center/cover;
+}
